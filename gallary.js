@@ -1,4 +1,4 @@
-console.log('It is working fine');
+
 
 
 function resetEverything(){
