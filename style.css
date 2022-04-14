@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(16, 231, 231, 0.247);
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+   position: relative; 
+   flex: 1;
+   height: 80vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: #fff;
+   cursor: pointer;
+   margin: 5px;
+   border-radius: 50px;
+   transition: all 800ms ease-in;
+}
+.panel h3{
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+.panel.fulsize h3{
+    opacity: 1;
+    transition: opacity 300ms ease-in 400ms;
+}
+.panel.fulsize{
+    flex: 10;
+}
+#panel-1{
+background-image: url(https://cdn.pixabay.com/photo/2018/04/06/00/25/trees-3294681__340.jpg);
+}
+#panel-2{
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072__340.jpg);
+}
+#panel-3{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285__340.jpg);
+}
+#panel-4{
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/27/06/30/skyscrapers-3184798__340.jpg);
+}
+#panel-5{
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/11/12/02/mountains-1899264__340.jpg);
+}
+#panel-6{
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/25/13/01/stones-167089__340.jpg);
+}
+#panel-7{
+    background-image: url(https://media.istockphoto.com/photos/bengal-tigers-in-ranthambhore-national-park-picture-id519361010?k=20&m=519361010&s=612x612&w=0&h=Xmv3uRwj8dvq7XAQmokO7G_26sL_KIZJzznBXRuvSS0=);
+}
